@@ -138,7 +138,7 @@ def train_related(training_data, stoplist):
 # save the trained model
     #joblib.dump(clf, "model_solver_lbfgs.m")
 # load the trained model
-    #clf = joblib.load("model/model_solver_lbfgs.m")
+    #clf = joblib.load("trained_model/model_solver_lbfgs.m")
 # return two models: the MLP and word countVector
     return clf,count_vect
 
